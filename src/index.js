@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Youtube from './service/youtube';
 
-export const URI = 'https://youtube.googleapis.com/youtube/v3'
-export const apiKey = 'AIzaSyAqAuWE4vDHzTvTO2OBKiBGNpO2XRf0bW4'
+const youtube = new Youtube(process.env.REACT_APP_BASE_URL, process.env.REACT_APP_YOUTUBE_API_KEY)
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App youtube={youtube}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
