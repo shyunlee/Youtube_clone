@@ -45,14 +45,21 @@
   font-weight:800;
 }
 
-@media screen and (max-width: 750px) and (min-width:525px) {
+
+@media screen and (max-width: 48rem)  {
   .list {
     width:50%;
   }
+  .grid {
+    width:100%;
+  }
 }
 
-@media screen and (max-width:525px) {
+@media screen and (max-width:32rem) {
   .video {
     width:80%;
+  }
+  .list {
+    width:100%;
   }
 }
