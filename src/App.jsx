@@ -3,10 +3,10 @@ import styles from "./app.module.css";
 import VideoList from "./components/video_list/VideoList";
 import SearchHeader from "./components/search_header/SearchHeader";
 import VideoDetail from './components/video_detail/VideoDetail';
-import data from "./data";
+// import data from "./data";
 
 const App = ({ youtube }) => {
-  const [videos, setVideos] = useState(data.items);
+  const [videos, setVideos] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null)
 
   useEffect(() => {
