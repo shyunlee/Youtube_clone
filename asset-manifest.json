@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Youtube_clone/static/css/main.afd08827.chunk.css",
-    "main.js": "/Youtube_clone/static/js/main.8fa2a949.chunk.js",
-    "main.js.map": "/Youtube_clone/static/js/main.8fa2a949.chunk.js.map",
+    "main.js": "/Youtube_clone/static/js/main.361d940b.chunk.js",
+    "main.js.map": "/Youtube_clone/static/js/main.361d940b.chunk.js.map",
     "runtime-main.js": "/Youtube_clone/static/js/runtime-main.8fe04dda.js",
     "runtime-main.js.map": "/Youtube_clone/static/js/runtime-main.8fe04dda.js.map",
     "static/js/2.aa349e13.chunk.js": "/Youtube_clone/static/js/2.aa349e13.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.8fe04dda.js",
     "static/js/2.aa349e13.chunk.js",
     "static/css/main.afd08827.chunk.css",
-    "static/js/main.8fa2a949.chunk.js"
+    "static/js/main.361d940b.chunk.js"
   ]
 }
